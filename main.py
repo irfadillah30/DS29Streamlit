@@ -1,0 +1,2 @@
+import vita
+vita.vita()
