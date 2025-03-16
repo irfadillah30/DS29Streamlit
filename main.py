@@ -1,8 +1,6 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
 from streamlit_option_menu import option_menu
-st.set_page_config(page_title="Irfadillah Afni Nurvita", page_icon="🧊", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Irfadillah Afni Nurvita")
 st.title('Irfadillah Afni Nurvita')
 with st.sidebar:
     selected = option_menu("",["About Me",'Experience','Education','Contact'], 
